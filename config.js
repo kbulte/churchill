@@ -6,11 +6,10 @@ const config = {
     trailingSlash: false,
   },
   header: {
-    logo: 'https://1drv.ms/u/s!AqySyK4h28qhielVAE-ADQsSzw19Yg?e=ce3POV',
-    logoLink: 'https://1drv.ms/u/s!AqySyK4h28qhielVAE-ADQsSzw19Yg?e=ce3POV',
-    title:
-      "",
-    githubUrl: 'https://github.com/hasura/gatsby-gitbook-boilerplate',
+    logo: 'https://raw.githubusercontent.com/kbulte/churchill/master/public/static/Churchill-logo.svg',
+    logoLink: 'https://raw.githubusercontent.com/kbulte/churchill/master/public/static/Churchill-logo.svg',
+    title: "documentation site",
+    githubUrl: 'https://github.com/kbulte/churchill',
     helpUrl: '',
     tweetText: '',
     social: `<!--li>
@@ -51,17 +50,17 @@ const config = {
       "The courage to decide",
   },
   siteMetadata: {
-    title: 'Gatsby Gitbook Boilerplate | Hasura',
-    description: 'Documentation built with mdx. Powering hasura.io/learn ',
+    title: 'Churchill | the courage of making decisions',
+    description: 'Documentation built with mdx.',
     ogImage: null,
-    docsLocation: 'https://github.com/hasura/gatsby-gitbook-boilerplate/tree/master/content',
-    favicon: 'https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg',
+    docsLocation: 'https://github.com/kbulte/churchill/tree/master/content',
+    favicon: '',
   },
   pwa: {
     enabled: false, // disabling this will also remove the existing service worker.
     manifest: {
-      name: 'Gatsby Gitbook Starter',
-      short_name: 'GitbookStarter',
+      name: 'Churchill',
+      short_name: 'Churchill',
       start_url: '/',
       background_color: '#6b37bf',
       theme_color: '#6b37bf',
